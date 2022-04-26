@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        p{
+            color: red;
+        }
+        
+        .main-heading.clr-blue{
+            color: blue;
+        }
+
+        .clr-blue{
+            color: pink;
+        }
+        .main-heading{
+            font-size: 30px;
+            color: blueviolet;
+        }
+        h1{
+            font-size: 20px;
+            color: aquamarine;
+        }
+
+        div p{
+            color: gray;
+        }
+
+        .texts .text{
+            color: pink;
+        }
+
+        #education{
+            width: 400px;
+            height: 250px;
+            background-color: gray;
+        }
+
+        p.section-title{
+            color: white;
+        }
+
+        h2.section-title{
+            color: bisque;
+        }
+
+        div>a{
+            color:black;
+            text-decoration: none;
+        }
+        div+a{
+            color:olivedrab;
+            text-decoration: none;
+        }
+        [target=_blank ]{
+            font-size: 24px;
+        }
+
+        [title~=dersi]{
+            font-size: 20px;
+        }
+
+        [target^=_b]{
+            color:blueviolet;
+            font-size: 50px;
+        }
+
+       input:checked{
+           width: 30px;
+           height: 30px;
+       }
+       
+       a:active{
+           color: darkkhaki;
+           font-size: 30px;
+       }
+
+       a:visited{
+           color: aquamarine;
+       }
+
+
+       a:hover{
+           font-size: 30px;
+       }
+
+       input:hover{
+           background-color: yellow;
+       }
+       input:focus{
+           background-color: limegreen;
+       }
+        
+       .text-items p:nth-child(2){
+           color: blue;
+       }
+    </style>
+
+</head>
+<body>
+    
+        <h1 class="clr-blue" >Hello, World</h1>
+        <h3 style="color:brown;font-size:24px;">Hello, World!</h3>
+        <p class="main-heading">Hello, World!</p>
+
+        <h1>Hello, World</h1>
+
+        <hr>
+
+        <h1 class="main-heading clr-blue">
+            Hello, World!
+        </h1>
+
+        <div class="texts">
+            <div>
+                <p class="text">
+                    Qayır döyğa sülöymən murtta tova qayır öy tutaşmıyın tova siyəndər dana şöytəli qalet, şöytəli sumsux ağrın alem vızqırt nağarersan? dığlatdın ölüm qağa qavağında ölöm bıy əzizin ölsün. A qıvlasız şöytəli mamoğlu təntitmə qavağında ölöm bıy əzizin ölsün çəkələy suruxvat basırıx siyəndər bıy əzizin ölsün sumsux qavağında ölöm dana, təntitmə dana ciji cöngə çəkələy a bimürvət qağa tova sülöymən səni ağrın alem. Tova qağa xışdıyaram qalet aya təntitmə aya kiri cöngə nağaresan oynaxlanma pırpız baş, siyəndər sülöymən beyjə vızqırt haay sumsux eşiyə çıxma döyğa təntitmə sumsux. Usuf basırıx döyğa usuf döyğa, sortuxla siyəndər dana suruxvat ölüm, mığı covid mirəti sumsux. Murtta çəkələy tova sortuxla öy vızqırt, nağaresan dana nağarersan? siyəndər qalet, suruxvat xışdıyaram qağa haay.
+                </p>
+            </div>
+               
+        </div>
+
+
+        <section id="education">
+            <p class="section-title">
+                İnformasiya Texnologiyaları sahəsində bugünün və gələcəyin ən tələb edilən istiqamətləri
+            </p>
+            <h2 class="section-title">
+                Education section
+            </h2>
+        </section>
+
+        <a href="">Go to google</a>
+
+        <div>
+            <a href="">Go to google</a>
+
+
+            <p>
+            Bu linknden google-a kecid ede bilersiniz 
+            <a href="">Go to google</a>
+            </p>
+        </div>
+        <a href="" target="">Go to google</a>
+        <a href="" target="_blank">Go to google</a>
+
+        <p title="bp202 proqramlsdirma dersi">Hello, BP202</p>
+
+        <hr>
+
+        <form action="">
+
+            <div>
+                <label for="name">Ad</label>
+                <input type="text" name="name" id="name" >
+            </div>
+            <div>
+                <label for="surname">Soyad</label>
+                <input type="text" name="name" id="surname" >
+            </div>
+            <div>
+                <p>Aile vezyeti</p>
+                <label for="single">Subay</label>
+                <input type="radio" name="isMarried" id="single" value="1">
+                <label for="married">Evli</label>
+                <input type="radio" name="isMarried" id="married" value="2">
+                <label for="happy">Xosbext</label>
+                <input type="radio" name="isMarried" id="happy" value="3">
+            </div>
+        </form>
+
+        <div class="text-items">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum fuga saepe quod delectus, maiores nihil tenetur aliquid, nostrum quae ipsam impedit ad rem tempora obcaecati iusto, quia consequatur hic dolore.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci ipsum rem et, facilis sapiente sequi vero consequuntur omnis, animi vitae laboriosam iusto maiores nulla, nostrum accusamus molestias. Eveniet, assumenda ratione!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci ipsum rem et, facilis sapiente sequi vero consequuntur omnis, animi vitae laboriosam iusto maiores nulla, nostrum accusamus molestias. Eveniet, assumenda ratione!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci ipsum rem et, facilis sapiente sequi vero consequuntur omnis, animi vitae laboriosam iusto maiores nulla, nostrum accusamus molestias. Eveniet, assumenda ratione!</p>
+
+        </div>
+    
+</body>
+</html>
